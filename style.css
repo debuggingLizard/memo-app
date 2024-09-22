@@ -1,0 +1,101 @@
+#input-area {
+    display: flex;
+    border-bottom: 2px solid #BDF32B;
+    padding-bottom: 8px;
+}
+
+input {
+    background-color: #3E3E3C;
+    border: 0px;
+    padding: 8px;
+    border-right: 2px solid #BDF32B;
+    border-top: 1px solid transparent;
+    border-bottom: 1px solid transparent;  
+}
+
+input:focus {
+    outline: none;
+    border-right: 2px solid #f32b59;
+    border-top: 1px solid #f32b59;
+    border-bottom: 1px solid #f32b59;  
+  }
+
+.input-btn {
+    border: 0px;
+    background-color: #BDF32B;
+    color: #151514;
+    width: 32px;
+    height: 32px;
+    font-size: 24px;
+    border-radius: 50%;
+    margin-left: 8px;
+}
+
+.input-btn:hover {
+    cursor: pointer;
+    background-color: #f32b59;
+}
+
+.notes-wrapper {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 4px;
+   padding:8px 0;
+   margin: 24px 0 32px;
+}
+
+.archive-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+    padding: 0;
+    margin: 0 0 32px;
+}
+
+.notes-bg {
+    background-color: #343432;
+}
+
+.archive-notes-bg {
+    background-color: #1F1F1E;
+}
+
+.notes-container {
+    border-radius: 18px;
+    height: 200px;
+    width: 160px;
+    padding: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.notes-container h4 {
+    margin-bottom: 4px;
+}
+
+.notes-container p {
+    margin-bottom: 4px; 
+}
+
+.notes-options {
+    border: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.notes-options img {
+    width:18px;
+    padding: 0;
+}
+
+.icon-hover:hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(92%) saturate(1652%) hue-rotate(19deg) brightness(105%) contrast(91%); 
+}
+
+.icon-archive-hover:hover {
+    cursor: pointer;
+    filter: brightness(0) saturate(100%) invert(32%) sepia(52%) saturate(7310%) hue-rotate(332deg) brightness(99%) contrast(93%);
+}
